@@ -14,7 +14,7 @@ public class Example {
     }  
       
     @RequestMapping("/hello/{myName}")  
-    String index(@PathVariable String myName) {  
-        return "Hello "+myName+"!!!";  
+    String index(@PathVariable String Angie) {  
+        return "Hello "+Angie+"!!!";  
     } 
 }
